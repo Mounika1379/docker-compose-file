@@ -4,4 +4,7 @@ services:
     image: httpd
     ports:
       - "8000:80"
-    
+  train:
+    image: nginx
+    ports:
+      - "8001:80"
